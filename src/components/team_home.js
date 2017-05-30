@@ -41,9 +41,7 @@ export default class TeamHome extends Component {
       }
 
     }
-
   }
-
 
   render() {
 
@@ -58,13 +56,13 @@ export default class TeamHome extends Component {
         <h2>This week...</h2>
         <TeamList
           teamMembers={this.state.team.members} />
-        <div>
-          <h2>Curious about these challenges?</h2>
-          <button>Check them out here</button>
+        <div className="info-container">
+          <h2>Curious about what these mad people are doing?</h2>
+          <button className="beautiful-big-button">Check out the challenges</button>
         </div>
-        <div>
-          <h2>Have an idea for a challenge?</h2>
-          <button>Submit a challenge here</button>
+        <div className="info-container">
+          <h2>Throw down the gauntlet!</h2>
+          <button className="beautiful-big-button">Submit a challenge</button>
         </div>
       </div>
     );

@@ -1,5 +1,114 @@
+
 body {
   color: white;
   background: #01445a;
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 100px;
+}
 
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h1, h2, h3 {
+  font-family: 'Sigmar One', cursive;
+  color: #fdc23e;
+  text-align: center;
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+
+.team-list {
+  border: 2px solid #0b303f;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.team-member-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+.team-member-avatar {
+  height: 100px;
+  width: auto;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.team-member-details {
+  flex: 1;
+  padding-left: 30px;
+}
+
+.team-member-intro {
+  font-family: 'Sigmar One', cursive;
+  font-size: 1.5em;
+  color: #fdc23e;
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+
+.team-member-name {
+  font-size: 1.1em;
+  color: #38b4c1;
+}
+
+.challenge {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  padding: 10px;
+  background: #ecf0f1;
+  color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.info-container {
+  max-width: 700px;
+  margin: 50px auto;
+}
+
+/* TODO: Make these beautiful big buttons more beautiful */
+
+.beautiful-big-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  min-width: 300px;
+
+  font-family: 'Nunito', sans-serif;
+  color: black;
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.beautiful-big-button:hover {
+  cursor: pointer;
+  background: #95a5a6;
+}
+
+.beautiful-big-button:active {
+
+}
+
+.beautiful-big-button:focus {
+  outline: 0;
 }

@@ -4,9 +4,11 @@ export default (props) => {
 
 	return (
     <div className="team-member-card">
-      <img className="avatar" src={props.member.avatarSrc}></img>
-      <h3>{props.member.name}</h3>
-      <div className="challenge">{props.member.currentChallenge}</div>
+      <img className="team-member-avatar" src={props.member.avatarSrc}></img>
+      <div className="team-member-details">
+        <div className="team-member-intro"><span className="team-member-name">{props.member.name}</span> will attempt to...</div>
+        <div className="challenge">{props.member.currentChallenge}</div>
+      </div>
     </div>
   );
 }
